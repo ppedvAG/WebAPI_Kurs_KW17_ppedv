@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yKr3SfIxRiXhQSdgdRhf4hE/Hizll7T1lnCsKIP8/M8eA8le9cL83HT3Uvdbj2qQsJUXD25TfPvyFt0dnezKBg==",
+  "success": true,
+  "projectFilePath": "C:\\Aktueller Kurs\\WebAPI_Kurs_KW17_ppedv\\WebAPIKurs\\ServiceCollectionAndServiceProvider\\ServiceCollectionAndServiceProvider.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\kw4\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
