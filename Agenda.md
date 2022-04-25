@@ -3,10 +3,10 @@ PPEDV-Kurs: 25.04.2022 - WebAPI Kurs
 
 WebAPI:
 Montag:
-- [ ] Dependency Injections 
+- [x] Dependency Injections 
 - [ ] Dependency Injections in WebAPI
-- [ ] ServiceCollection + ServiceProvider in Console 
-- [ ] Singleton / Scope / Transient  
+- [x] ServiceCollection + ServiceProvider in Console 
+- [x] Singleton / Scope / Transient  
 - [ ] Was ist ein RESTFul Service
 - [ ] 
 - [ ] Projektaufbau 
