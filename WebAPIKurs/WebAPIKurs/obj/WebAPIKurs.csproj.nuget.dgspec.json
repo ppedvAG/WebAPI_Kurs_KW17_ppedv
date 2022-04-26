@@ -121,6 +121,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.3.0, )"
+            },
+            "WebApiContrib.Core.Formatter.Csv": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [

@@ -18,20 +18,20 @@ namespace WebAPIKurs.Controllers
     {
         private readonly MovieDbContext _context;
 
-        private readonly IMultipleDatabaseService _service;
+        private readonly IMovieService _service;
        
         
         public MoviesController(IConfiguration configuration) //Pro Request wird Controller neu instanziiert -> Scoped
         {
-            _service = new MultipleDatabaseService(configuration);
+            _service = new MovieService(configuration);
 
         }
 
         // GET: api/Movies/GetMovies
         [HttpGet("GetMovies")]
-        public async Task<ActionResult<IEnumerable<Movie>>> GetMovie()
+        public async Task<ActionResult<IEnumerable<Movie>>> GetMovie(int standort)
         {
-            return await _context.Movie.ToListAsync();
+            return _service.GetAll(standort);
         }
 
         // GET: api/Movies/GetMovie
@@ -40,29 +40,14 @@ namespace WebAPIKurs.Controllers
         [HttpGet("GetMovie")]
         public async Task<ActionResult<Movie>> GetMovie(int id, int standort) //QueryString
         {
-            //string conStr = string.Empty;
 
-            //if (standort == 1)
-            //{
-            //    conStr = _configuration["ConnectionStrings:MovieDbContext"];
-            //}
-            //else
-            //    conStr = _configuration["ConnectionStrings:MovieDbContext2"];
-
-            //var options = new DbContextOptionsBuilder<MovieDbContext>().UseSqlServer(conStr).Options;
-            //Movie movie = null;
-
-            //using (MovieDbContext context = new MovieDbContext(options))
-            //{
-            //    movie = context.Movie.FirstOrDefault(e => e.Id == id);
-            //}
 
 
 
 
             Movie movie; 
 
-            movie = _service.GetMovie(id, standort);
+            movie = _service.Get(id, standort);
 
             if (movie == null)
                 return BadRequest();
@@ -106,27 +91,11 @@ namespace WebAPIKurs.Controllers
         [HttpPost("{id}")]
         public async Task<ActionResult<Movie>> PostMovie(int id, Movie movie)
         {
-            //string conStr = string.Empty;
-            //if (id == 1)
-            //{
-            //    conStr = _configuration["ConnectionStrings:MovieDbContext"];
-            //}
-            //else
-            //    conStr = _configuration["ConnectionStrings:MovieDbContext2"];
+            //Validierung
 
-            //var options = new DbContextOptionsBuilder<MovieDbContext>().UseSqlServer(conStr).Options;
+            movie = _service.Insert(id, movie);
 
-            //using (MovieDbContext context = new MovieDbContext(options))
-            //{
-            //    context.Movie.Add(movie);
-            //    await context.SaveChangesAsync();
-            //}
-
-            movie = _service.InsertMovie(id, movie);
-
-
-
-
+            // komm auch was zurück 
             return CreatedAtAction("GetMovie", new { id = movie.Id }, movie);
         }
 

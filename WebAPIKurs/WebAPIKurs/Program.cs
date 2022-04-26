@@ -1,12 +1,29 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using System.Reflection;
+using WebApiContrib.Core.Formatter.Csv;
 using WebAPIKurs.Data;
 //WebApplication.CreateBuiler Factory-Pattern
 
 //WebApplicationBuilder k�mmert sich um die Initiasierung der WebAPP
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDbContext<ToDoDbContext>(options =>
+//WebApplication.CreateBuiler Factory-Pattern
+
+//WebApplicationBuilder k�mmert sich um die Initiasierung der WebAPP
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoDbContext") ?? throw new InvalidOperationException("Connection string 'ToDoDbContext' not found.")));
+
 builder.Services.AddDbContext<MovieDbContext>(); //In Controller benötige ich 
+
+
+#region WebApplicationBuilder ist abwärtskomatibel
+//builder.Host->IHostBuilder ASP.NET Core 3.1 + 5.0 
+
+//builder.WebHost -> IWebHostBuilder -> IWebhostBuilder
+#endregion
+
+
 //WebApplication.CreateBuiler Factory-Pattern
 
 //WebApplicationBuilder k�mmert sich um die Initiasierung der WebAPP
@@ -16,14 +33,26 @@ builder.Services.AddDbContext<MovieDbContext>(); //In Controller benötige ich
 //builder.Services -> ServiceCollection zu initialisieren unserer Dienste 
 
 
-builder.Services.AddControllers(); //AddController besagt, dass wir eine WebAPI verwenden 
+
+//AddController besagt, dass wir eine WebAPI verwenden 
+builder.Services.AddControllers()
+    .AddXmlSerializerFormatters()
+    .AddCsvSerializerFormatters();
+
 //IConfiguration wird automatisch bef�llt (alle Konfoigurationsdaten werden in IConfiguration aufgelistet) 
 
 builder.Services.AddSingleton<ICar, MockCar>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+
+//SwaggerGen mit der Möglichkeit Swagger-Kommentare an Get/Post/Put/Delete Methoden zu hinterlegen
+builder.Services.AddSwaggerGen( options =>
+{
+    string xmlFilename = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, xmlFilename));
+});
 
 //WebApplicationBuilder abw�rtskompatibel (obselete in .NET 6.0) 
 //builder.Host  -> IHostBuilder -> ASP.NET Core 3.1 / 5.0 

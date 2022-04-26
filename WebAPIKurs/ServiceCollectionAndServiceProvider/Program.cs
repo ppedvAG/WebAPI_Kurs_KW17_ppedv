@@ -94,6 +94,7 @@ public interface ICarService
 //Programmierer A: 5 Tage
 public class Car : ICar, IScopedCar
 {
+    public int Id { get; set; }
     public string Marke { get; set; }
     public string Modell { get; set; }
 }

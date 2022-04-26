@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPIKurs</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPIKurs.Controllers.ConventionsController.GetToDoItemList">
+            <summary>
+            Erhalte eine Liste von TodoItems
+            </summary>
+            <returns>ToDoItem - Liste</returns>
+        </member>
+        <member name="M:WebAPIKurs.Controllers.ConventionsController.PutToDoItem(System.Int32,WebAPIKurs.Models.ToDoItem)">
+            <summary>
+            Aktualisiere eine Aufgabe
+            </summary>
+            <param name="id">id der Aufgabe</param>
+            <param name="toDoItem">Aufgaben JsonObject</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPIKurs.Controllers.ConventionsController.PostToDoItem(WebAPIKurs.Models.ToDoItem)">
+            <summary>
+            Hinzufügen einer Aufgabe
+            </summary>
+            <param name="toDoItem"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
