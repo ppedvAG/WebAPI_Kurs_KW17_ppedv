@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e9492069-ef3f-4cf2-a6ee-03607dced6b7": {
+      "ProjectGuid": "e9492069-ef3f-4cf2-a6ee-03607dced6b7",
+      "DisplayName": "MovieSample.API",
+      "ColorIndex": 0
+    },
+    "eaf70b67-559a-42a5-b956-39fbab6a559a": {
+      "ProjectGuid": "eaf70b67-559a-42a5-b956-39fbab6a559a",
+      "DisplayName": "MovieSample.UI",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

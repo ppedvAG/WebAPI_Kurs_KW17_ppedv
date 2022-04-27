@@ -3,20 +3,21 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using WebApiContrib.Core.Formatter.Csv;
 using WebAPIKurs.Data;
+using WebAPIKurs.Services;
 //WebApplication.CreateBuiler Factory-Pattern
 
-//WebApplicationBuilder k�mmert sich um die Initiasierung der WebAPP
+//WebApplicationBuilder kümmert sich um die Initiasierung der WebAPP
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<ToDoDbContext>(options =>
 //WebApplication.CreateBuiler Factory-Pattern
 
-//WebApplicationBuilder k�mmert sich um die Initiasierung der WebAPP
+//WebApplicationBuilder kümmert sich um die Initiasierung der WebAPP
     options.UseSqlServer(builder.Configuration.GetConnectionString("ToDoDbContext") ?? throw new InvalidOperationException("Connection string 'ToDoDbContext' not found.")));
 
 builder.Services.AddDbContext<MovieDbContext>(); //In Controller benötige ich 
 
-
+builder.Services.AddHttpClient<IVideoService, VideoService>();
 #region WebApplicationBuilder ist abwärtskomatibel
 //builder.Host->IHostBuilder ASP.NET Core 3.1 + 5.0 
 
