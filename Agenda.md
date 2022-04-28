@@ -8,37 +8,36 @@ Montag:
 - [x] ServiceCollection + ServiceProvider in Console 
 - [x] Singleton / Scope / Transient  
 - [ ] Was ist ein RESTFul Service
-- [ ] 
-- [ ] Projektaufbau 
+- [x] Projektaufbau 
 - [x] ControllerBase in aspnetcore Sourcecode
 - [x] Return Values - Controller-Klasse
 - [x] HTTP-Methoden (Get / Post / Put / Delete)
 - [x] HttpVerbs in Verbindung mit Swagger (Swagger kann nicht ohne HttpVerb->z.B. HttpGet)
 - [x] Konventionen
-- [ ] Formatter (CSV,XML)
-- [ ] Customize Formatter (VCARD) - ShowCase 
-- [ ] EF Core Anbindung 
-	- InMeomoryProvider
-	- SqlProvider kennengelernt -> Add-Migrations + Update-Database
+- [x] Formatter (CSV,XML)
+- [x] ResponseCaching -> siehe WeatherForecastController.cs
+- [x] EF Core Anbindung 
+	- [x] InMeomoryProvider
+	- [x] SqlProvider kennengelernt -> Add-Migrations + Update-Database
 
 
 Dienstag:
 
-- [ ] HttpClient (30 Minuten)
-	- [ ] CRUD abgebildet ->MVC/WEbAPI Sample
-- [ ] Content Negotation 
-- [ ] Broadcast Videoübertragung via WebAPI
-- [ ] Authentifizierung via Identity UI -> User Accounts
-- [ ] HttpClient mit BearerToken
-- [ ] Pagging u. weitere WebAPI Features -> Skip/Take für PAging / Sorting und Filtering
-- [ ] Client mit Swagger.json (Aktuell kann es zu Bugs in VS kommen)
-- [ ] Minimal API -> wird erst in .NET 7 interessant
-- [ ] Datei übertragn mit WebAPI (Projektübersicht -> SourceCode ist fertig)
+- [x] HttpClient (30 Minuten)
+	- [x] CRUD abgebildet ->MVC/WEbAPI Sample
+- [x HttpClient mit BearerToken -> SourceCode gewünscht
+
+- [x] Broadcast Videoübertragung via WebAPI
+- [x] Authentifizierung via Identity UI -> User Accounts
+
+- [ok] Minimal API -> wird erst in .NET 7 interessant
+
+- [x] Datei übertragn mit WebAPI (Projektübersicht -> SourceCode ist fertig)
+- [x] Logging in ASP.NET Core (Serilog-Beispiel)
+- [x] Paging u. weitere WebAPI Features -> Skip/Take für Paging / Sorting und Filtering
+
+- [ ] Customize Formatter (VCARD) - ShowCase -> Nur Einbinden ist interssant -> 
 - [ ] Architekturen -> Hateoas + DataShapping + OData 
 
-
-
-
 Optionale Themen:
-- [ ] Logging in ASP.NET Core (Serilog-Beispiel)
-- [ ] Konfigurationen in ASP.NET Core 
+- [x] Konfigurationen in ASP.NET Core 

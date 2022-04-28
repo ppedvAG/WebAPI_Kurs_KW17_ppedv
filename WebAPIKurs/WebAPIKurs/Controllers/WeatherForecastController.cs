@@ -19,6 +19,8 @@ namespace WebAPIKurs.Controllers
         }
 
         //[HttpGet] https://localhost:7222/WeatherForecast
+
+        [ResponseCache(VaryByHeader = "User-Agent", Duration = 30)]
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {

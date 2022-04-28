@@ -19,18 +19,21 @@ namespace WebAPIKurs.Controllers
         private readonly MovieDbContext _context;
 
         private readonly IMovieService _service;
-       
-        
-        public MoviesController(IConfiguration configuration) //Pro Request wird Controller neu instanziiert -> Scoped
+
+        private readonly ILogger<MoviesController> _logger;
+
+
+        public MoviesController(ILogger<MoviesController> logger, IConfiguration configuration) //Pro Request wird Controller neu instanziiert -> Scoped
         {
             _service = new MovieService(configuration);
-
+            _logger = logger;
         }
 
         // GET: api/Movies/GetMovies
         [HttpGet("GetMovies")]
         public async Task<ActionResult<IEnumerable<Movie>>> GetMovie(int standort)
         {
+            _logger.LogInformation($"GET -> api/Movies/GetMovies?{standort}");
             return _service.GetAll(standort);
         }
 
@@ -42,7 +45,7 @@ namespace WebAPIKurs.Controllers
         {
 
 
-
+            _logger.LogInformation($"GET -> api/Movies/GetMovie?id={id}&standort={standort}");
 
 
             Movie movie; 

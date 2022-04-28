@@ -268,6 +268,15 @@ C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\
 C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\WebAPIKurs.xml
 C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\obj\Debug\net6.0\WebAPIKurs.xml
-C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\WebApiContrib.Core.Formatter.Csv.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll

@@ -25,5 +25,37 @@
             <param name="toDoItem"></param>
             <returns></returns>
         </member>
+        <member name="T:WebAPIKurs.Services.FileService">
+            <summary>
+            Upload und Download 
+            </summary>
+        </member>
+        <member name="M:WebAPIKurs.Services.FileService.#ctor(Microsoft.Extensions.Hosting.IHostEnvironment)">
+            <summary>
+            Konsturkotr Injection 
+            </summary>
+            <param name="hostEnvironment"></param>
+        </member>
+        <member name="M:WebAPIKurs.Services.IFileService.UploadFile(System.Collections.Generic.List{Microsoft.AspNetCore.Http.IFormFile},System.String)">
+            <summary>
+            Upload von Dateien
+            </summary>
+            <param name="files"></param>
+            <param name="subDirectory"></param>
+        </member>
+        <member name="M:WebAPIKurs.Services.IFileService.DownloadFiles(System.String)">
+            <summary>
+            Download einer Zip-Datei 
+            </summary>
+            <param name="subDirectory"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPIKurs.Services.IFileService.SizeConverter(System.Int64)">
+            <summary>
+            Ausgabe des Datenvolumens anhand der Bytes
+            </summary>
+            <param name="bytes"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

@@ -1,0 +1,629 @@
+2022-04-28 15:21:32.944 +02:00 [INF] Starting web host
+2022-04-28 15:24:17.776 +02:00 [INF] Starting web host
+2022-04-28 15:24:18.256 +02:00 [INF] Now listening on: https://localhost:7222
+2022-04-28 15:24:18.264 +02:00 [INF] Now listening on: http://localhost:5222
+2022-04-28 15:24:18.270 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-28 15:24:18.271 +02:00 [INF] Hosting environment: Development
+2022-04-28 15:24:18.272 +02:00 [INF] Content root path: C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\
+2022-04-28 15:24:21.567 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - -
+2022-04-28 15:24:23.264 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 15:24:23.302 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - - - 200 - text/html;charset=utf-8 1754.4774ms
+2022-04-28 15:24:23.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 55.9904ms
+2022-04-28 15:24:23.657 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - -
+2022-04-28 15:24:24.074 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:24:24.237 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:24:24.254 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:24:24.516 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:24:24.547 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:24:25.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1389.6636ms
+2022-04-28 15:24:33.724 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/Movies/GetMovie?id=1&standort=1 - -
+2022-04-28 15:24:33.740 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.MoviesController.GetMovie (WebAPIKurs)'
+2022-04-28 15:24:33.801 +02:00 [INF] Route matched with {action = "GetMovie", controller = "Movies"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.Movie]] GetMovie(Int32, Int32) on controller WebAPIKurs.Controllers.MoviesController (WebAPIKurs).
+2022-04-28 15:24:33.934 +02:00 [INF] Executing action method WebAPIKurs.Controllers.MoviesController.GetMovie (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 15:24:37.034 +02:00 [INF] GET -> api/Movies/GetMovie?id=1&standort=1
+2022-04-28 15:24:41.784 +02:00 [INF] Executed action method WebAPIKurs.Controllers.MoviesController.GetMovie (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 7832.9568ms.
+2022-04-28 15:24:41.799 +02:00 [INF] Executing OkObjectResult, writing value of type 'WebAPIKurs.Models.Movie'.
+2022-04-28 15:24:41.814 +02:00 [INF] Executed action WebAPIKurs.Controllers.MoviesController.GetMovie (WebAPIKurs) in 8000.6275ms
+2022-04-28 15:24:41.816 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.MoviesController.GetMovie (WebAPIKurs)'
+2022-04-28 15:24:41.817 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/Movies/GetMovie?id=1&standort=1 - - - 200 - application/json;+charset=utf-8 8093.2788ms
+2022-04-28 15:51:08.844 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 15:51:11.863 +02:00 [INF] Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ToDoItem] AS [t]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-28 15:51:12.367 +02:00 [INF] Executed DbCommand (52ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 15:51:12.409 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 15:51:12.676 +02:00 [INF] Starting web host
+2022-04-28 15:51:12.984 +02:00 [INF] Now listening on: https://localhost:7222
+2022-04-28 15:51:12.985 +02:00 [INF] Now listening on: http://localhost:5222
+2022-04-28 15:51:12.993 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-28 15:51:12.995 +02:00 [INF] Hosting environment: Development
+2022-04-28 15:51:12.997 +02:00 [INF] Content root path: C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\
+2022-04-28 15:51:14.786 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - -
+2022-04-28 15:51:15.460 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 15:51:15.491 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 28.3780ms
+2022-04-28 15:51:15.493 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - - - 200 - text/html;charset=utf-8 716.0053ms
+2022-04-28 15:51:15.795 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - -
+2022-04-28 15:51:16.043 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:51:16.155 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:51:16.164 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:51:16.344 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:51:16.353 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:51:16.782 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 986.3640ms
+2022-04-28 15:51:30.731 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/ToDoItems/GetToDoItemList - -
+2022-04-28 15:51:30.750 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.GetToDoItemList (WebAPIKurs)'
+2022-04-28 15:51:30.770 +02:00 [INF] Route matched with {action = "GetToDoItemList", controller = "ToDoItems"}. Executing controller action with signature System.Collections.Generic.IAsyncEnumerable`1[WebAPIKurs.Models.ToDoItem] GetToDoItemList() on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 15:51:30.882 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.GetToDoItemList (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 15:51:30.896 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.GetToDoItemList (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.7811ms.
+2022-04-28 15:51:30.905 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 15:51:30.919 +02:00 [INF] Executing ObjectResult, writing value of type 'WebAPIKurs.Controllers.ToDoItemsController+<GetToDoItemList>d__3'.
+2022-04-28 15:51:30.930 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 15:51:31.087 +02:00 [INF] Executed DbCommand (34ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsClosed], [t].[Name]
+FROM [ToDoItem] AS [t]
+2022-04-28 15:51:31.153 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.GetToDoItemList (WebAPIKurs) in 371.7513ms
+2022-04-28 15:51:31.155 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.GetToDoItemList (WebAPIKurs)'
+2022-04-28 15:51:31.166 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/ToDoItems/GetToDoItemList - - - 200 - application/json;+charset=utf-8 435.1365ms
+2022-04-28 16:00:49.546 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:00:52.850 +02:00 [INF] Executed DbCommand (78ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ToDoItem] AS [t]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-28 16:00:53.406 +02:00 [INF] Starting web host
+2022-04-28 16:00:53.886 +02:00 [INF] Now listening on: https://localhost:7222
+2022-04-28 16:00:53.888 +02:00 [INF] Now listening on: http://localhost:5222
+2022-04-28 16:00:53.900 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-28 16:00:53.902 +02:00 [INF] Hosting environment: Development
+2022-04-28 16:00:53.904 +02:00 [INF] Content root path: C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\
+2022-04-28 16:00:56.053 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - -
+2022-04-28 16:00:58.146 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 16:00:58.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - - - 200 - text/html;charset=utf-8 2263.4787ms
+2022-04-28 16:00:58.281 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 138.7639ms
+2022-04-28 16:00:58.694 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - -
+2022-04-28 16:00:59.207 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:00:59.523 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:00:59.537 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:00:59.893 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:00:59.908 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:01:00.340 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1645.5928ms
+2022-04-28 16:02:16.469 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 62
+2022-04-28 16:02:16.498 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:16.558 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:02:16.758 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:02:21.341 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:02:22.166 +02:00 [INF] Executed DbCommand (101ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:02:22.490 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 5710.3381ms.
+2022-04-28 16:02:22.547 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:02:22.786 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 6186.2906ms
+2022-04-28 16:02:22.797 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:22.840 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 62 - 201 - application/json;+charset=utf-8 6366.8072ms
+2022-04-28 16:02:33.086 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 51
+2022-04-28 16:02:33.093 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:33.096 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:02:33.150 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:02:33.287 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:02:33.299 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:02:33.304 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 152.5046ms.
+2022-04-28 16:02:33.307 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:02:33.309 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 193.4702ms
+2022-04-28 16:02:33.315 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:33.317 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 51 - 201 - application/json;+charset=utf-8 231.1351ms
+2022-04-28 16:02:39.340 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 53
+2022-04-28 16:02:39.342 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:39.343 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:02:39.373 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:02:39.376 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:02:39.385 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:02:39.390 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 14.5206ms.
+2022-04-28 16:02:39.392 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:02:39.395 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 50.3097ms
+2022-04-28 16:02:39.397 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:39.410 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 53 - 201 - application/json;+charset=utf-8 69.7867ms
+2022-04-28 16:02:45.428 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 52
+2022-04-28 16:02:45.430 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:45.432 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:02:45.464 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:02:45.466 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:02:45.473 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:02:45.478 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 12.6296ms.
+2022-04-28 16:02:45.480 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:02:45.481 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 45.366ms
+2022-04-28 16:02:45.482 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:45.484 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 52 - 201 - application/json;+charset=utf-8 55.6675ms
+2022-04-28 16:02:50.270 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 53
+2022-04-28 16:02:50.274 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:50.277 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:02:50.308 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:02:50.310 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:02:50.314 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:02:50.319 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 9.1713ms.
+2022-04-28 16:02:50.321 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:02:50.323 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 42.2914ms
+2022-04-28 16:02:50.325 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:02:50.326 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 53 - 201 - application/json;+charset=utf-8 56.3994ms
+2022-04-28 16:03:00.603 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 57
+2022-04-28 16:03:00.605 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:03:00.609 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:03:00.640 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:03:00.643 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:03:00.649 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:03:00.659 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 16.6563ms.
+2022-04-28 16:03:00.661 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:03:00.664 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 50.8506ms
+2022-04-28 16:03:00.666 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:03:00.667 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 57 - 201 - application/json;+charset=utf-8 64.3383ms
+2022-04-28 16:03:34.775 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 61
+2022-04-28 16:03:34.792 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:03:34.794 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:03:34.821 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:03:34.823 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:03:34.828 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:03:34.834 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 11.9907ms.
+2022-04-28 16:03:34.837 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:03:34.839 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 42.5033ms
+2022-04-28 16:03:34.840 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:03:34.842 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 61 - 201 - application/json;+charset=utf-8 66.9225ms
+2022-04-28 16:03:42.370 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 57
+2022-04-28 16:03:42.372 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:03:42.373 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:03:42.400 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:03:42.403 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:03:42.411 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:03:42.416 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 13.8666ms.
+2022-04-28 16:03:42.419 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:03:42.421 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 45.4594ms
+2022-04-28 16:03:42.424 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:03:42.447 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 57 - 201 - application/json;+charset=utf-8 76.4174ms
+2022-04-28 16:03:48.577 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 60
+2022-04-28 16:03:48.578 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:03:48.580 +02:00 [INF] Route matched with {action = "PostToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[WebAPIKurs.Models.ToDoItem]] PostToDoItem(WebAPIKurs.Models.ToDoItem) on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:03:48.606 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:03:48.607 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:03:48.612 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Boolean), @p1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [ToDoItem] ([IsClosed], [Name])
+VALUES (@p0, @p1);
+SELECT [Id]
+FROM [ToDoItem]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-04-28 16:03:48.617 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.CreatedAtActionResult in 9.6434ms.
+2022-04-28 16:03:48.618 +02:00 [INF] Executing CreatedAtActionResult, writing value of type 'WebAPIKurs.Models.ToDoItem'.
+2022-04-28 16:03:48.619 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs) in 37.1983ms
+2022-04-28 16:03:48.621 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.PostToDoItem (WebAPIKurs)'
+2022-04-28 16:03:48.622 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7222/api/ToDoItems application/json 60 - 201 - application/json;+charset=utf-8 45.6945ms
+2022-04-28 16:03:57.589 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/ToDoItems/CanListWithCSV - -
+2022-04-28 16:03:57.591 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.ToDoItemsController.GetToDoItem (WebAPIKurs)'
+2022-04-28 16:03:57.602 +02:00 [INF] Route matched with {action = "GetToDoItem", controller = "ToDoItems"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebAPIKurs.Models.ToDoItem]]] GetToDoItem() on controller WebAPIKurs.Controllers.ToDoItemsController (WebAPIKurs).
+2022-04-28 16:03:57.629 +02:00 [INF] Executing action method WebAPIKurs.Controllers.ToDoItemsController.GetToDoItem (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:03:57.641 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:03:57.721 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsClosed], [t].[Name]
+FROM [ToDoItem] AS [t]
+2022-04-28 16:03:57.746 +02:00 [INF] Executed action method WebAPIKurs.Controllers.ToDoItemsController.GetToDoItem (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 115.1379ms.
+2022-04-28 16:03:57.747 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-28 16:03:58.003 +02:00 [INF] Executed action WebAPIKurs.Controllers.ToDoItemsController.GetToDoItem (WebAPIKurs) in 398.1373ms
+2022-04-28 16:03:58.018 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.ToDoItemsController.GetToDoItem (WebAPIKurs)'
+2022-04-28 16:03:58.020 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/ToDoItems/CanListWithCSV - - - 200 - text/csv 430.4666ms
+2022-04-28 16:04:16.034 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/PagingAndSorting/ToDoListWithPaging?pageNumber=1&pageSize=5 - -
+2022-04-28 16:04:16.036 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs)'
+2022-04-28 16:04:16.041 +02:00 [INF] Route matched with {action = "GetToDoItems", controller = "PagingAndSorting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebAPIKurs.Models.ToDoItem]]] GetToDoItems(Int32, Int32) on controller WebAPIKurs.Controllers.PagingAndSortingController (WebAPIKurs).
+2022-04-28 16:04:16.078 +02:00 [INF] Executing action method WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:04:16.082 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:04:16.145 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsClosed], [t].[Name]
+FROM [ToDoItem] AS [t]
+ORDER BY [t].[Name]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-04-28 16:04:16.148 +02:00 [INF] Executed action method WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 68.6371ms.
+2022-04-28 16:04:16.150 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-28 16:04:16.152 +02:00 [INF] Executed action WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs) in 109.4314ms
+2022-04-28 16:04:16.156 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs)'
+2022-04-28 16:04:16.157 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/PagingAndSorting/ToDoListWithPaging?pageNumber=1&pageSize=5 - - - 200 - application/json;+charset=utf-8 122.7679ms
+2022-04-28 16:04:25.861 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/PagingAndSorting/ToDoListWithPaging?pageNumber=2&pageSize=5 - -
+2022-04-28 16:04:25.862 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs)'
+2022-04-28 16:04:25.863 +02:00 [INF] Route matched with {action = "GetToDoItems", controller = "PagingAndSorting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebAPIKurs.Models.ToDoItem]]] GetToDoItems(Int32, Int32) on controller WebAPIKurs.Controllers.PagingAndSortingController (WebAPIKurs).
+2022-04-28 16:04:25.892 +02:00 [INF] Executing action method WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:04:25.895 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:04:25.908 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsClosed], [t].[Name]
+FROM [ToDoItem] AS [t]
+ORDER BY [t].[Name]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_0 ROWS ONLY
+2022-04-28 16:04:25.911 +02:00 [INF] Executed action method WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17.0979ms.
+2022-04-28 16:04:25.913 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-28 16:04:25.915 +02:00 [INF] Executed action WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs) in 49.1714ms
+2022-04-28 16:04:25.925 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs)'
+2022-04-28 16:04:25.926 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/PagingAndSorting/ToDoListWithPaging?pageNumber=2&pageSize=5 - - - 200 - application/json;+charset=utf-8 65.4319ms
+2022-04-28 16:04:32.176 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/api/PagingAndSorting/ToDoListWithPaging?pageNumber=3&pageSize=5 - -
+2022-04-28 16:04:32.177 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs)'
+2022-04-28 16:04:32.178 +02:00 [INF] Route matched with {action = "GetToDoItems", controller = "PagingAndSorting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[WebAPIKurs.Models.ToDoItem]]] GetToDoItems(Int32, Int32) on controller WebAPIKurs.Controllers.PagingAndSortingController (WebAPIKurs).
+2022-04-28 16:04:32.208 +02:00 [INF] Executing action method WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:04:32.211 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:04:32.223 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[IsClosed], [t].[Name]
+FROM [ToDoItem] AS [t]
+ORDER BY [t].[Name]
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-04-28 16:04:32.227 +02:00 [INF] Executed action method WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 17.0754ms.
+2022-04-28 16:04:32.229 +02:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-04-28 16:04:32.230 +02:00 [INF] Executed action WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs) in 50.2286ms
+2022-04-28 16:04:32.232 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.PagingAndSortingController.GetToDoItems (WebAPIKurs)'
+2022-04-28 16:04:32.234 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/api/PagingAndSorting/ToDoListWithPaging?pageNumber=3&pageSize=5 - - - 200 - application/json;+charset=utf-8 58.1192ms
+2022-04-28 16:22:34.780 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:22:37.075 +02:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ToDoItem] AS [t]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-28 16:22:37.393 +02:00 [INF] Starting web host
+2022-04-28 16:22:37.730 +02:00 [INF] Now listening on: https://localhost:7222
+2022-04-28 16:22:37.732 +02:00 [INF] Now listening on: http://localhost:5222
+2022-04-28 16:22:37.741 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-28 16:22:37.743 +02:00 [INF] Hosting environment: Development
+2022-04-28 16:22:37.744 +02:00 [INF] Content root path: C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\
+2022-04-28 16:22:39.460 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - -
+2022-04-28 16:22:40.747 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - - - 200 - text/html;charset=utf-8 1297.0466ms
+2022-04-28 16:22:40.748 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 16:22:40.781 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 33.3452ms
+2022-04-28 16:22:41.238 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - -
+2022-04-28 16:22:41.592 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:22:41.785 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:22:41.797 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:22:42.073 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:22:42.082 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:22:42.477 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1238.2883ms
+2022-04-28 16:22:49.125 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/WeatherForecast123 - -
+2022-04-28 16:22:49.154 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:22:49.176 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast123"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebAPIKurs.WeatherForecast] Get() on controller WebAPIKurs.Controllers.WeatherForecast123Controller (WebAPIKurs).
+2022-04-28 16:22:49.285 +02:00 [INF] Executing action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:22:49.299 +02:00 [INF] Executed action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.265ms.
+2022-04-28 16:22:49.317 +02:00 [INF] Executing ObjectResult, writing value of type 'WebAPIKurs.WeatherForecast[]'.
+2022-04-28 16:22:49.340 +02:00 [INF] Executed action WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) in 152.7967ms
+2022-04-28 16:22:49.343 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:22:49.345 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/WeatherForecast123 - - - 200 - application/json;+charset=utf-8 219.2562ms
+2022-04-28 16:22:53.592 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/WeatherForecast123 - -
+2022-04-28 16:22:53.594 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:22:53.595 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast123"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebAPIKurs.WeatherForecast] Get() on controller WebAPIKurs.Controllers.WeatherForecast123Controller (WebAPIKurs).
+2022-04-28 16:22:53.616 +02:00 [INF] Executing action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:22:53.617 +02:00 [INF] Executed action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0647ms.
+2022-04-28 16:22:53.618 +02:00 [INF] Executing ObjectResult, writing value of type 'WebAPIKurs.WeatherForecast[]'.
+2022-04-28 16:22:53.619 +02:00 [INF] Executed action WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) in 23.3622ms
+2022-04-28 16:22:53.620 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:22:53.622 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/WeatherForecast123 - - - 200 - application/json;+charset=utf-8 29.5754ms
+2022-04-28 16:22:54.801 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/WeatherForecast123 - -
+2022-04-28 16:22:54.803 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:22:54.805 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast123"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebAPIKurs.WeatherForecast] Get() on controller WebAPIKurs.Controllers.WeatherForecast123Controller (WebAPIKurs).
+2022-04-28 16:22:54.827 +02:00 [INF] Executing action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:22:54.828 +02:00 [INF] Executed action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0415ms.
+2022-04-28 16:22:54.830 +02:00 [INF] Executing ObjectResult, writing value of type 'WebAPIKurs.WeatherForecast[]'.
+2022-04-28 16:22:54.832 +02:00 [INF] Executed action WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) in 23.4199ms
+2022-04-28 16:22:54.833 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:22:54.833 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/WeatherForecast123 - - - 200 - application/json;+charset=utf-8 32.5571ms
+2022-04-28 16:22:55.590 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/WeatherForecast123 - -
+2022-04-28 16:22:55.591 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:22:55.592 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast123"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebAPIKurs.WeatherForecast] Get() on controller WebAPIKurs.Controllers.WeatherForecast123Controller (WebAPIKurs).
+2022-04-28 16:22:55.615 +02:00 [INF] Executing action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:22:55.617 +02:00 [INF] Executed action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0222ms.
+2022-04-28 16:22:55.618 +02:00 [INF] Executing ObjectResult, writing value of type 'WebAPIKurs.WeatherForecast[]'.
+2022-04-28 16:22:55.619 +02:00 [INF] Executed action WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) in 25.2359ms
+2022-04-28 16:22:55.620 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:22:55.621 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/WeatherForecast123 - - - 200 - application/json;+charset=utf-8 30.4090ms
+2022-04-28 16:24:11.119 +02:00 [INF] Entity Framework Core 6.0.4 initialized 'ToDoDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: None
+2022-04-28 16:24:12.804 +02:00 [INF] Executed DbCommand (67ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [ToDoItem] AS [t]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2022-04-28 16:24:13.181 +02:00 [INF] Starting web host
+2022-04-28 16:24:13.546 +02:00 [INF] Now listening on: https://localhost:7222
+2022-04-28 16:24:13.548 +02:00 [INF] Now listening on: http://localhost:5222
+2022-04-28 16:24:13.555 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-04-28 16:24:13.557 +02:00 [INF] Hosting environment: Development
+2022-04-28 16:24:13.558 +02:00 [INF] Content root path: C:\Aktueller Kurs\WebAPI_Kurs_KW17_ppedv\WebAPIKurs\WebAPIKurs\
+2022-04-28 16:24:15.558 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/index.html - -
+2022-04-28 16:24:16.781 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/index.html - - - 200 - text/html;charset=utf-8 1294.5946ms
+2022-04-28 16:24:16.783 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - -
+2022-04-28 16:24:16.804 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/_framework/aspnetcore-browser-refresh.js - - - 200 11978 application/javascript;+charset=utf-8 19.9953ms
+2022-04-28 16:24:17.291 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - -
+2022-04-28 16:24:17.524 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:24:17.658 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:24:17.671 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'ICar'.
+System.NotSupportedException: Cannot serialize interface ICar.
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:24:18.012 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[Car, ServiceCollectionAndServiceProvider, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:24:18.036 +02:00 [WRN] An error occurred while trying to create an XmlSerializer for the type 'System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+System.NotSupportedException: Cannot serialize interface System.Collections.Generic.IAsyncEnumerable`1[[WebAPIKurs.Models.ToDoItem, WebAPIKurs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]].
+   at System.Xml.Serialization.TypeDesc.CheckSupported()
+   at System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo source, Boolean directReference, Boolean throwOnError)
+   at System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean directReference)
+   at System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type type, XmlRootAttribute root, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   at System.Xml.Serialization.XmlSerializer..ctor(Type type)
+   at Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter.CreateSerializer(Type type)
+2022-04-28 16:24:18.482 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1190.5337ms
+2022-04-28 16:24:32.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/WeatherForecast123 - -
+2022-04-28 16:24:32.169 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:24:32.194 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast123"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebAPIKurs.WeatherForecast] Get() on controller WebAPIKurs.Controllers.WeatherForecast123Controller (WebAPIKurs).
+2022-04-28 16:24:32.318 +02:00 [INF] Executing action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:24:32.335 +02:00 [INF] Executed action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.7171ms.
+2022-04-28 16:24:32.363 +02:00 [INF] Executing ObjectResult, writing value of type 'WebAPIKurs.WeatherForecast[]'.
+2022-04-28 16:24:32.407 +02:00 [INF] Executed action WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) in 187.6165ms
+2022-04-28 16:24:32.409 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:24:32.411 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/WeatherForecast123 - - - 200 - application/json;+charset=utf-8 267.9778ms
+2022-04-28 16:25:01.275 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7222/WeatherForecast123 - -
+2022-04-28 16:25:01.287 +02:00 [INF] Executing endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:25:01.288 +02:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast123"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[WebAPIKurs.WeatherForecast] Get() on controller WebAPIKurs.Controllers.WeatherForecast123Controller (WebAPIKurs).
+2022-04-28 16:25:01.310 +02:00 [INF] Executing action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) - Validation state: "Valid"
+2022-04-28 16:25:01.311 +02:00 [INF] Executed action method WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1286ms.
+2022-04-28 16:25:01.313 +02:00 [INF] Executing ObjectResult, writing value of type 'WebAPIKurs.WeatherForecast[]'.
+2022-04-28 16:25:01.314 +02:00 [INF] Executed action WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs) in 24.8415ms
+2022-04-28 16:25:01.316 +02:00 [INF] Executed endpoint 'WebAPIKurs.Controllers.WeatherForecast123Controller.Get (WebAPIKurs)'
+2022-04-28 16:25:01.323 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7222/WeatherForecast123 - - - 200 - application/json;+charset=utf-8 47.9896ms
